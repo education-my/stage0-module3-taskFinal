@@ -2,7 +2,6 @@ package lang.print.gaps.finalModuleTask;
 
 public class DigitsSumCalculator {
     public void calculateSum(int number) {
-        int result = 0;
         String numberString = number + "";
         System.out.println(
                 Integer.parseInt("" + numberString.charAt(0))
